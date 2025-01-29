@@ -1,0 +1,11 @@
+/* RandomSizedCards.css */
+.cards-container {
+    position: relative;
+    height: 100vh; /* Adjust the height as needed */
+    width: 100vw; /* Adjust the width as needed */
+  }
+  
+  .card {
+    position: absolute;
+    /* Any other card styles you have */
+  }

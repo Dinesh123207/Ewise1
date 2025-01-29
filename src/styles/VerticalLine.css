@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-button {
+    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+  
+  .vertical-line {
+    height: 20px; /* Adjust the height according to your design */
+    width: 2px;
+    background-color: #325242; /* Color of the vertical line */
+    margin: 10px 10px; /* Adjust the spacing between buttons and the line */
+  }
+  

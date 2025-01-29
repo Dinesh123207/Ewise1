@@ -1,0 +1,74 @@
+.three-cards{
+    background-color: #325242;
+}
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-container {
+  background-color: "FFFCF6";
+  text-align: center;
+}
+
+.card{
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  border: 1px solid #f7f0e6;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1); /* Added box shadow */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Added box shadow transition */
+  background-color: #ffffff;
+  padding: 15px; /* Increased padding */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card-content {
+  position: absolute;
+  top: 70px;
+  left: 60px;
+  transform: translate(-50%, -50%);
+  text-align: center; /* Center-align text */
+  color: #ffffff;
+  padding: 15px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0
+  ); /* Increased opacity for better contrast */
+  border-radius: 12px;
+  width: 80%; /* Adjusted width for better responsiveness */
+}
+
+.card-content p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #325343; /* Adjusted font color for better contrast */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Added text shadow */
+}
+
+.arrow {
+  text-decoration: none;
+  color: #325343; /* Adjusted font color for better contrast */
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
